@@ -1,0 +1,50 @@
+[
+  {
+    "projectName": "Wandee Ecommerce",
+    "image": "/images/wandee_ecommerce.png",
+    "type": "Website",
+    "techStack": ["React", "Vanilla CSS"],
+    "description": "A furniture ecommerce site that focuses on simple design, making it easy for users to find the products they need. ",
+    "liveDemo": "https://wandee-ecommerce.vercel.app/",
+    "github": "https://github.com/Chatinun/wandee-ecommerce"
+  },
+  {
+    "projectName": "Shortly URL Landing Page",
+    "image": "/images/shortly.png",
+    "type": "Website",
+    "techStack": ["React", "Vanilla CSS"],
+    "description": "A Challenge from Frontend Mentor, which involved integrating with the shrtcode URL shortening API and crafting CSS styles to match their design.",
+    "liveDemo": "https://shortly-url-eight.vercel.app/",
+    "github": "https://github.com/Chatinun/shortly-url"
+  },
+  {
+    "projectName": "Watches API",
+    "image": "/images/watches.jpg",
+    "type": "API",
+    "techStack": ["MongoDB", "Node.js", "ExpressJS"],
+    "description": "During my time in university, I created a small project involving the design and development of a CRUD API for managing watch-related data. This project incorporated user authentication to ensure secure access to the system.",
+    "github": "https://github.com/Chatinun/1913210058_Chatinun_Final",
+    "apiLink": "https://dark-jade-cockatoo-suit.cyclic.app/",
+    "apiDocument": "https://documenter.getpostman.com/view/24628836/2s93JnTmTZ"
+  },
+  {
+    "projectName": "W.A.R.P",
+    "image": "/images/warp_2.png",
+    "type": "Unity Game",
+    "techStack": ["Unity C#"],
+    "description": "W.A.R.P is a platformer game inspired by Cuphead. Play as a character who gets kidnapped to a castle by the insects he previously killed and embarks on a mission to safely return home. Our group of five collaboratively worked on this project, with me taking charge of the coding aspect.",
+    "github": "https://github.com/Chatinun/WARP",
+    "youtube": "https://youtu.be/ZnMlLS7YFJc",
+    "download": "https://drive.google.com/file/d/1bsWlKR0ck0ASk_peLjEe9j7DGr9o8dlf/view?usp=sharing"
+  },
+  {
+    "projectName": "Jumpy Box",
+    "image": "/images/jumpybox.png",
+    "type": "Unity Game",
+    "techStack": ["Unity C#"],
+    "description": "Jumpy Box is a platformer game inspired by Super Meat Boy, where the objective is to rescue the princess as quickly as possible.",
+    "github": "https://github.com/Chatinun/JumpyBox",
+    "youtube": "https://youtu.be/_1qncLB9nQg",
+    "download": "https://drive.google.com/file/d/1tPfWSMt0rCF-5hb4NcC70NmWeD0_kXYF/view"
+  }
+]

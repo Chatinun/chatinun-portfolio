@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+:root {
+  --color-black-800: rgb(0, 0, 0);
+  --color-black-500: rgb(85, 85, 85);
+  --color-black-300: rgb(138, 138, 138);
+  --color-black-100: rgb(187, 187, 187);
+
+  --color-navy-blue: rgb(33, 61, 87);
+  --color-hot-pink: rgb(240, 0, 108);
+  --color-hot-pink-hover: rgb(216, 0, 97);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.2s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  color: black;
+  font-size: 2.25rem;
+}
+
+h3 {
+  color: var(--color-black-500);
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  color: var(--color-black-300);
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 1.15rem;
+  color: var(--color-black-800);
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 1.15rem;
+  color: var(--color-black-300);
+  font-weight: 300;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--color-black-300);
+}
+
+ul li {
+  font-size: 1rem;
+  color: var(--color-black-300);
+  list-style-type: circle;
+}
+
+span {
+  color: var(--color-hot-pink);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content__wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10rem;
 }
 
-.App-link {
-  color: #61dafb;
+.underline-links > a {
+  position: relative;
+  color: var(--color-black-500);
+  cursor: pointer;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.underline-links > a::after {
+  content: "";
+  position: absolute;
+  background-color: var(--color-hot-pink);
+  height: 3px;
+  width: 0;
+  bottom: -5px;
+  left: 0;
+  transition: all 0.2s;
+}
+
+.underline-links > a:hover {
+  color: var(--color-black-800);
+}
+
+.underline-links > a:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 3rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  h2 {
+    font-size: 2rem;
   }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .content__wrapper {
+    gap: 4rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__wrapper {
+    gap: 0rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
 }
